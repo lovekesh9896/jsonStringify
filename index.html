@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Tools</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section id="section1">
+    <h1>Json Stringify</h1>
+    <p>Convert json to stringified format</p>
+    <div id="main-container">
+        <div class="textarea-container">
+            <h3>Input</h3>
+            <textarea name="input" id="input" class="textarea" autofocus></textarea>
+        </div>
+        <div id="btn-container">
+            <button id="convert-btn" class="btn second">Convert</button>
+            <button id="reset-btn" class="btn first">Reset</button>
+        </div>
+        <div class="textarea-container">
+            <div style="display: flex; justify-content: space-between;">
+                <h3>Output</h3>
+                <div>
+                    <input type="checkbox" name="squareBracketSelection" id="squareBracketSelection">
+                    <label for="squareBracketSelection">Remove Square Bracket</label>
+                </div>
+            </div>
+            <textarea name="output" id="output" class="textarea" ></textarea>
+        </div>
+    </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
